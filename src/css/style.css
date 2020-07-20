@@ -41,3 +41,14 @@ a {
     height: 35px;
     width: 70px;
 }
+
+.subscription {
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 20px;
+}

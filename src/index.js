@@ -5,20 +5,21 @@ import './css/style.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Header from './components/Header';
+import Subscription from './components/Subscription';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('header')
 );
 
-// ReactDOM.render(
-//    <React.StrictMode>
-//     <Subscription />
-//    </React.StrictMode>,
-//   document.getElementById('subscription')
-// );
+ReactDOM.render(
+   <React.StrictMode>
+    <Subscription />
+   </React.StrictMode>,
+  document.getElementById('subscription')
+);
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
