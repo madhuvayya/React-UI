@@ -43,10 +43,8 @@ a {
 }
 
 .subscription {
-    height: 300px;
+    /* height: 300px; */
     text-align: center;
-    display: flex;
-    flex-direction: column;
 }
 
 .text {
@@ -57,4 +55,9 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.list {
+    list-style-type:none;
+    text-align: center;
 }

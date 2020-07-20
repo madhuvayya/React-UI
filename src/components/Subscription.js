@@ -15,20 +15,21 @@ class Subscription extends Component {
                         Free
                     </div>
                     <div class="subs-body">
-                        <ul>
+                        <ul class="list">
                             <li>10 users included</li>
                             <li>2GB of storage</li>
                             <li>Help center access</li>
                             <li>Email support</li>
                         </ul>
                         <button>SIGN UP FOR FREE</button>
+                    </div>
                 </div>
                 <div class="pro">
-                <div class="subs-title">
-                        Free
+                    <div class="subs-title">
+                        Pro
                     </div>
                     <div class="subs-body">
-                        <ul>
+                        <ul class="list">
                             <li>20 users included</li>
                             <li>10GB of storage</li>
                             <li>Help center access</li>
@@ -39,10 +40,10 @@ class Subscription extends Component {
                 </div>
                 <div class="enterprise">
                     <div class="subs-title">
-                        Free
+                    Enterprise
                     </div>
                     <div class="subs-body">
-                        <ul>
+                        <ul class="list">
                             <li>50 users included</li>
                             <li>30GB of storage</li>
                             <li>Help center access</li>
@@ -52,8 +53,7 @@ class Subscription extends Component {
                     </div>
                 </div>
             </div>
-        </div>
-    </div>    
+        </div>    
     }; 
 }
 
