@@ -1,4 +1,5 @@
 import React, { Component } from 'react'; 
+import SubscriptionPricing from './SubscriptionPricing'  
 
 class Subscription extends Component {
     render() {
@@ -10,48 +11,9 @@ class Subscription extends Component {
                 </p>
             </div>
             <div class="pricing">
-                <div class="free pricing-option">
-                    <div class="subs-title">
-                        Free
-                    </div>
-                    <div class="subs-body">
-                        <ul class="list">
-                            <li>10 users included</li>
-                            <li>2GB of storage</li>
-                            <li>Help center access</li>
-                            <li>Email support</li>
-                        </ul>
-                        <button>SIGN UP FOR FREE</button>
-                    </div>
-                </div>
-                <div class="pro pricing-option">
-                    <div class="subs-title">
-                        Pro
-                    </div>
-                    <div class="subs-body">
-                        <ul class="list">
-                            <li>20 users included</li>
-                            <li>10GB of storage</li>
-                            <li>Help center access</li>
-                            <li>Priority eamil support</li>
-                        </ul>
-                        <button>GET STARTED</button>
-                    </div>
-                </div>
-                <div class="enterprise pricing-option">
-                    <div class="subs-title">
-                    Enterprise
-                    </div>
-                    <div class="subs-body">
-                        <ul class="list">
-                            <li>50 users included</li>
-                            <li>30GB of storage</li>
-                            <li>Help center access</li>
-                            <li>Phone & email support</li>
-                        </ul>
-                        <button>CONTACT US</button>
-                    </div>
-                </div>
+                <SubscriptionPricing price='0' type="Free"  users='10' storage='2' support='Email' button='SIGN UP FOR FREE' />
+                <SubscriptionPricing price='15' type="Pro"  users='20' storage='10' support='Priority eamil' button='GET STARTED' />
+                <SubscriptionPricing price='30' type="Enterprise"  users='50' storage='30' support='Phone & email' button='CONTACT US' />
             </div>
         </div>    
     }; 
