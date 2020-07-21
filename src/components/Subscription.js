@@ -10,7 +10,7 @@ class Subscription extends Component {
                 </p>
             </div>
             <div class="pricing">
-                <div class="free">
+                <div class="free pricing-option">
                     <div class="subs-title">
                         Free
                     </div>
@@ -24,7 +24,7 @@ class Subscription extends Component {
                         <button>SIGN UP FOR FREE</button>
                     </div>
                 </div>
-                <div class="pro">
+                <div class="pro pricing-option">
                     <div class="subs-title">
                         Pro
                     </div>
@@ -38,7 +38,7 @@ class Subscription extends Component {
                         <button>GET STARTED</button>
                     </div>
                 </div>
-                <div class="enterprise">
+                <div class="enterprise pricing-option">
                     <div class="subs-title">
                     Enterprise
                     </div>

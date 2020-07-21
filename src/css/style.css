@@ -57,7 +57,30 @@ a {
     justify-content: center;
 }
 
+.pricing-option { 
+    border: 1px solid gray;
+    padding: 0px 5px;
+}
+
+.subs-title {
+    border: 1px solid gray;
+    background-color: gray;
+}
+
 .list {
     list-style-type:none;
     text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    border-color: rgb(34, 126, 246);
+    color: rgb(34, 126, 246);
+    height: 30px;
+    align-self: center;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
 }
