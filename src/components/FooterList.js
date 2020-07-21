@@ -6,7 +6,7 @@ class FooterList extends Component {
             <ul class='footer-list'>
             <p class='footer-heading'>{this.props.listName}</p>
             {this.props.list.map((item) => 
-                { return <li>{item}</li> })}
+                { return <li><a href="">{item}</a></li> })}
             </ul>    
         </div>
     } 

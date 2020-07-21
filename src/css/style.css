@@ -68,8 +68,13 @@ a {
 }
 
 .pricing-option { 
-    border: 1px solid rgb(200, 199, 199);
+    border: 1px solid rgb(200, 199, 199);   
     width: 200px;
+}
+
+.pricing-option:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .price {
@@ -99,6 +104,8 @@ button {
     color: rgb(34, 126, 246);
     height: 30px;
     align-self: center;
+    margin-bottom: 5px;
+    width: 190px;
 }
 
 button:hover {
@@ -109,15 +116,17 @@ button:hover {
 .footer{
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: fl ;
 }
 
 .footer-heading {
     font-weight: bold;
+    color: rgb(66, 64, 64);
 }
 
 .footer-list {
     list-style-type:none;
     text-align: left;
-    color: gray;
+    color: rgb(197, 193, 193);
 }
+
