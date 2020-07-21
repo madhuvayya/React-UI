@@ -5,17 +5,19 @@ class SubscriptionPricing extends Component {
         return (
             <div class="pricing-option">
                 <div class="subs-title">
-                    {this.props.type}
+                    <div>
+                        {this.props.type}
+                    </div>
                 </div>
                 <div class="subs-body">
-                    ${this.props.price} <sub>/mo</sub>    
-                    <p>{this.props.users} users included</p>
-                    <p>{this.props.storage}GB of storage</p>
-                    <p>Help center access</p>
-                    <p>{this.props.support} support</p>
+                    ${this.props.price} <sub>/mo</sub>   
+                    <p>{this.props.users} users included<br/>
+                    {this.props.storage}GB of storage<br/>
+                    Help center access<br/>
+                    {this.props.support} support</p>
                     <button>{this.props.button}</button>
                 </div>
-        </div>
+            </div>
         )
     }
 }

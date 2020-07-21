@@ -4,8 +4,8 @@ import SubscriptionPricing from './SubscriptionPricing'
 class Subscription extends Component {
     render() {
         return <div class="subscription">
-            <div class="text">
-                <h2>Pricing</h2>
+            <div class="content">
+                <p class='text-heading'>Pricing</p>
                 <p class="text">Quickly build an effective pricing table for your potential customers with this layout.
                 It's built with default Material-UI components with little customization.
                 </p>
