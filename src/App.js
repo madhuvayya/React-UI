@@ -8,8 +8,10 @@ function App() {
     <div className="App">
       <div id="container">
         <Header />
-        <Subscription />
-        <Footer />
+        <div class='sub-container'>
+          <Subscription />
+          <Footer />
+        </div>
       </div>
     </div>
   );

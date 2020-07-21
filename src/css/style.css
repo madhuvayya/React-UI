@@ -41,8 +41,16 @@ a {
     width: 70px;
 }
 
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 600px; */
+}
+
 .subscription {
     text-align: center;
+    width: 750px;
 }
 
 .text {
