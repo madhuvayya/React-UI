@@ -15,6 +15,8 @@ class Subscription extends Component {
                 <SubscriptionPricing price='15' type="Pro"  users='20' storage='10' support='Priority eamil' button='GET STARTED' />
                 <SubscriptionPricing price='30' type="Enterprise"  users='50' storage='30' support='Phone & email' button='CONTACT US' />
             </div>
+            <br/>
+            <hr/>
         </div>    
     }; 
 }

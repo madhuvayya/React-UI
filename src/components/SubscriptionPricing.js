@@ -10,7 +10,7 @@ class SubscriptionPricing extends Component {
                     </div>
                 </div>
                 <div class="subs-body">
-                    ${this.props.price} <sub>/mo</sub>   
+                    <span class='price'>${this.props.price}</span> <sub>/mo</sub>   
                     <p>{this.props.users} users included<br/>
                     {this.props.storage}GB of storage<br/>
                     Help center access<br/>
