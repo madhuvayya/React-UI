@@ -45,13 +45,13 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 600px; */
 }
 
 .subscription {
     text-align: center;
     width: 750px;
 }
+
 
 .text {
     color: rgb(66, 61, 61);
@@ -64,7 +64,7 @@ a {
 .pricing {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .pricing-option { 
@@ -116,7 +116,6 @@ button:hover {
 .footer{
     text-align: center;
     display: flex;
-    justify-content: fl ;
 }
 
 .footer-heading {
