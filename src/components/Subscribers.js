@@ -40,8 +40,8 @@ class Subscribers extends Component {
        })
     }
 
-    getData() {
-        return this.state.subscribersList.map((subscriber, index) => {
+    getData = () => {
+        return this.state.subscribersList.map( subscriber => {
             const { name, mobileNumber, email, subscription } = subscriber //destructuring
             return (
                <tr key={email}>
@@ -56,8 +56,8 @@ class Subscribers extends Component {
 
     render() {
         return <div>
-                <h1 id='title'>Subsribers List</h1>
-                 <table class='subscribers'>
+                <h2 id='title'>Subsribers List</h2>
+                 <table className='subscribers'>
                 <tbody>
                   <tr>{this.getTableHeaders()}</tr>
                   {this.getData()}

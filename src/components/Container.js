@@ -9,10 +9,10 @@ class Container extends Component {
         this.state={
             component:'subscription'
         }
-        this.updateComponent = this.updateComponent.bind(this);
+        // this.updateComponent = this.updateComponent.bind(this);
     }
 
-    updateComponent(){
+    updateComponent = () => {
         this.setState({
             component:'subscribers'
         })
@@ -21,7 +21,7 @@ class Container extends Component {
     render() {
         return  <div id="container">
         <Header updateParent={this.updateComponent}/>
-        <div class='sub-container'> 
+        <div className='sub-container'> 
           <Content component={this.state.component}/>
           <Footer />
         </div>

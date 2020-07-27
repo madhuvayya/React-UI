@@ -3,8 +3,8 @@ import React,{Component} from 'react';
 class Register extends Component {
   render() {
     return (        
-    <div class="form">
-        <form method="post" action="register">
+    <div className="form">
+        <form>
             <table>
                 <tr>
                     <h1 align="center">Register</h1>

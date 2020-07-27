@@ -7,7 +7,7 @@ class Footer extends Component {
         const features = ["Cool stuff", "Random feature", "Team feature", "Developer stuff", "Another one"];
         const resources = ["Resource", "Resource name", "Another resource", "Final resource"];
         const legal = ["Privacy policy", "Terms of use"];
-        return <div class='footer'>
+        return <div className='footer'>
             <FooterList listName="Company" list={company}/>
             <FooterList listName="Features" list={features}/>
             <FooterList listName="Resources" list={resources}/>

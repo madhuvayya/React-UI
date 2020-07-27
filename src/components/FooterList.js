@@ -3,10 +3,10 @@ import React, { Component } from 'react'
 class FooterList extends Component {
     render(){
         return <div>
-            <ul class='footer-list'>
-            <p class='footer-heading'>{this.props.listName}</p>
-            {this.props.list.map((item) => 
-                { return <li><a href="">{item}</a></li> })}
+            <ul className='footer-list'>
+            <p className='footer-heading'>{this.props.listName}</p>
+            {this.props.list.map( item => 
+                { return <li key={item}><a href="">{item}</a></li> })}
             </ul>    
         </div>
     } 
