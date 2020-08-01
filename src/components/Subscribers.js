@@ -55,16 +55,18 @@ class Subscribers extends Component {
     }
 
     render() {
-        return <div>
+        return (
+            <React.Fragment className='subscribers' >
                 <h2 id='title'>Subsribers List</h2>
-                 <table className='subscribers'>
-                <tbody>
-                  <tr>{this.getTableHeaders()}</tr>
-                  {this.getData()}
-               </tbody>
-            </table>
-            <hr/>
-         </div>
+                 <table >
+                     <tbody>
+                         <tr>{this.getTableHeaders()}</tr>
+                        {this.getData()}
+                    </tbody>
+                </table>
+                <hr/>
+            </React.Fragment>
+        )
     }
 }
 

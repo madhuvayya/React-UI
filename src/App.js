@@ -6,9 +6,7 @@ import Register from './components/Register';
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Route exact path="/" component={Container} />
-      </div>
+      <Route exact path="/" component={Container} />
       <Route path="/register" component={Register} /> 
     </Router>
   );

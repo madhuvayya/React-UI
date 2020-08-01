@@ -129,14 +129,4 @@ button:hover {
     color: rgb(197, 193, 193);
 }
 
-.form{
-    width: 350px;
-    padding: 30px;
-    margin: 20px;
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    top:30%;
-    transform: translate(-50%, -50%);
-}
 
