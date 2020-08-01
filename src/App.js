@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
-import Container from './components/Container';
-import Register from './components/Register';
+import Container from './pages/Container';
+import Register from './pages/Register';
 
 function App() {
   return (

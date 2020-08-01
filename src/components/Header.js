@@ -4,7 +4,7 @@ class Header extends Component {
     render() {
         return <div className="header">
         <div className="company-name">
-            Company name
+           <a href="/"> Company name</a>
         </div>
         <div className="options">
             <div><a onClick={this.props.updateParent}>SUBSCRIBERS</a></div>
